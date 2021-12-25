@@ -19,7 +19,7 @@ async def start(client: Client, message: Message):
                     [
                         InlineKeyboardButton(
                             "🇮🇳 Channel",
-                            url=f"https://t.me/REX_BOTZ",
+                            url=f"https://t.me/{UP_CHANNEL}",
                         )
                     ],
                 ]
@@ -45,7 +45,7 @@ async def help(client, message):
                     [
                         InlineKeyboardButton(
                             "🎨 Group",
-                            url=f"https://t.me/REX_BOTs_SUPPORT",
+                            url=f"https://t.me/{UP_GROUP}",
                         )
                     ],
                 ]
@@ -71,7 +71,7 @@ async def about(client, message):
                     [
                         InlineKeyboardButton(
                             "👨‍💻 DEV",
-                            url=f"https://t.me/benwolf24",
+                            url=f"https://t.me/{UP_DEV}",
                         )
                     ],
                 ]
