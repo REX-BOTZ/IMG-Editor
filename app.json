@@ -8,9 +8,9 @@
         "Telegram Bot",
         "TroJanzHEX"
     ],
-    "website": "https://TroJanzHEX.me",
-    "repository": "https://github.com/REX-BOTZ/ImageEditor",
-    "success_url": "https://github.com/REX-BOTZ/ImageEditor",
+    "website": "https://t.me/Rex_Botz",
+    "repository": "https://github.com/REX-BOTZ/Img-Editor",
+    "success_url": "https://github.com/REX-BOTZ/Img-Editor",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
@@ -23,6 +23,21 @@
         "APP_ID": {
             "description": "Your APP ID from my.telegram.org",
             "value": ""
+        },
+        "UP_CHANNEL": {
+            "description": "Your Channel Name Without @",
+            "value": "",
+            "required": true
+        },
+        "UP_GROUP": {
+            "description": "Your GROUP USERName Without @",
+            "value": "",
+            "required": true
+        },
+        "UP_DEV": {
+            "description": "Your USERName Without @",
+            "value": "",
+            "required": true
         },
         "RemoveBG_API": {
             "description": "THIS BOT IS MADE BY REXBOTZ",
