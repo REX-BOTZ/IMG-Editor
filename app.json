@@ -1,0 +1,49 @@
+{
+    "name": "ImageEditor-REX",
+    "description": "A Bot that can Edit Images in various modes",
+    "logo": "https://telegra.ph/file/78d907f85bb4191dec263.jpg",
+    "keywords": [
+        "Image",
+        "Editor",
+        "Telegram Bot",
+        "TroJanzHEX"
+    ],
+    "website": "https://TroJanzHEX.me",
+    "repository": "https://github.com/REX-BOTZ/ImageEditor",
+    "success_url": "https://github.com/REX-BOTZ/ImageEditor",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        },
+        "RemoveBG_API": {
+            "description": "THIS BOT IS MADE BY REXBOTZ",
+            "value": "",
+            "required": false
+        },
+        "WEBHOOK": {
+            "description": "Set this Value to 'ANYTHING'. Don't Change it",
+            "value": "ANYTHING"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
